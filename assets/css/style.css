@@ -28,7 +28,7 @@ body {
 .container {
   background-color: var(--white);
   display: grid;
-  grid-template-columns: minmax(150px, 225px);
+  grid-template-columns: minmax(150px, 275px);
   grid-auto-rows: auto;
   overflow: hidden;
   padding: 1rem;
@@ -43,11 +43,19 @@ body {
   width: 100%;
 }
 
+.container2 {
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: 15rem;
+  justify-content: center;
+}
 .title > h3 {
   margin-top: 1rem;
   font-family: inherit;
   color: var(--darkBlue);
   font-weight: 700;
+  font-size: 1.3em;
 }
 
 .text > p {
@@ -55,6 +63,7 @@ body {
   font-family: inherit;
   font-weight: 400;
   color: var(--gray);
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
