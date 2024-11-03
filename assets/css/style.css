@@ -67,3 +67,10 @@ body {
   margin-bottom: 1.5rem;
   line-height: 1.4;
 }
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-5rem);
+}
