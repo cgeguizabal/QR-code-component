@@ -46,7 +46,7 @@ This is a clean and modern QR code card component designed to showcase a QR code
 - `.attribution` uses Flexbox and small text styling.
 
 ---
-###Preview
+# Preview
 https://cgeguizabal.github.io/QR-code-component/
 ---
 
